@@ -13,4 +13,5 @@ El siguiente proyecto tiene como objetivo la creacion de  una app de una emplesa
  para la ejecucion de la misma se debe instalar
  react-router-dom
  react- redux
+ redux toolkit
  i uuid ( para la generacion de id unicos)
