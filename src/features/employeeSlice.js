@@ -4,13 +4,13 @@ import {createSlice} from '@reduxjs/toolkit';
 const initialState = [
     {
         id:"1",
-        employee_id : 11,
+        employee_id : "11",
         first_name: "MATIAS",
         email: "MATIAS@VORTEX",
-        phone_number : 351111111,
+        phone_number : "351111111",
         hire_data: "10-07-2010",
         salary: "$800,000 ",
-        comission_pct:100
+        comission_pct:"100",
     },
     {
         id:"2",
@@ -20,11 +20,11 @@ const initialState = [
         phone_number : "3512222222",
         hire_data: "05-04-2019",
         salary: "$500.000",
-        comission_pct:" 50"
+        comission_pct:" 50",
 },
     {
         id:"3",
-        employee_id : 13, 
+        employee_id :"13", 
         first_name: "JOSE",
         email: "JOSE@VORTEX",
         phone_number : "3513333333",

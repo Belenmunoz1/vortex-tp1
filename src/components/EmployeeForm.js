@@ -60,7 +60,7 @@ function EmployeeForm () {
             < input type = "text" placeholder="ingrese nombre" name="first_name" onChange={handleChange} value={employee.first_name}/>
             < input type = "email" placeholder="ingrese mail" name="email" onChange={handleChange} value={employee.email}/>
             < input type = "number" placeholder="ingrese celular" name="phone_number" onChange={handleChange} value={employee.phone_number}/>
-            < input type = "date" placeholder="ingrese fecha de contrato" name="hire_data" onChange={handleChange} value={employee.hire_date}/>
+            < input type = "date" placeholder="ingrese fecha de contrato" name="hire_data" onChange={handleChange} value={employee.hire_data}/>
             < input type = "number" placeholder="ingrese salario" name="salary" onChange={handleChange} value={employee.salary}/>
             < input type = "number" placeholder="ingrese comision" name="comission_pct" onChange={handleChange} value={employee.comission_pct}/>
             <button> save</button>
